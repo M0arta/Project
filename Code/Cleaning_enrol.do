@@ -48,7 +48,7 @@ lab var year "Accademic year"
 
  keep if year == "2015/2016"
  
- 
+
  save Clean.Enrolment.dta
  
  
