@@ -1,0 +1,21 @@
+﻿Final Project
+
+In this project I analyze the datasets containing informations on Italina university students and university in the Acdemic year 2015/2016. One dataset contains information on the students grade at the end of their studies, the region where they went to university, their parent's level of education , if they have done or not a period of EU mobility and their income after graduation. The second data set contains information on the number of enrolled students in each italian university and the third one on the funds received by the public and the money spendt for student services. 
+
+I clean the first two datasets and thenuse python to webscrap from Wikipedia a tabl with the name of the universities and their Regions. 
+Then I will merge the first two datasets on the basis on the regional appartenence of the universities and run OLS regressions to explore the degrees of correation between the income of the students after graduation, the characteristics and background of the students taken from the first dataset and the number of enrolled students taken from the second one . 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

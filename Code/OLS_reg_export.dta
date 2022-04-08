@@ -1,0 +1,17 @@
+use Income_Clean.dta 
+
+/*Run OLS regression */
+reg income age_grad i.EU_mobility class_att grade i.sex p_edu reg_uni
+
+/*export the regression table to excell*/
+outreg2 using Export_OLS,word ctitle("OLS") title ("TABLE 1: Income and Students characteristics")
+
+/*use merged dataset to have number of enrolled student as a control*/
+
+use Merged_02.dta
+
+reg income i.EU_mobility i.sex p_edu grade n_enrl
+
+outreg2 using Export_OLS.rtf, append ctitle("OLS-2")
+
+

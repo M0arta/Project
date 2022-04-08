@@ -1,0 +1,22 @@
+use Clean_Istat.dta
+
+tab grade 
+tab age_group
+
+/*Run summary statistics for income and the other variables */
+
+eststo clear
+estpost summarize income grade p_edu age_grad sex EU_mobility
+esttab using Export_sum.rtf, cells(mean sd) label title("Summary of descriptive statistics")
+
+/*Produce a graph of the income and the graduation mark by the parent's education*/
+
+sort p_edu
+eststo clear
+by p_edu: eststo: estpost summarize income grade
+esttab using Export_tab.rtf, cells("mean sd") label nodepvar append title("Grade and income bby parent's education")
+
+/* Scatter income on parent's education*/
+
+scatter income p_edu
+graph save "Graph" "/home/marta/Coding_Project/Output/Export_graph.gph"

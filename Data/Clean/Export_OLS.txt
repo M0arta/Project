@@ -1,0 +1,20 @@
+	(1)
+VARIABLES	income
+	
+2.EU_mobility	-131.1***
+	(15.20)
+1.sex	-189.3***
+	(9.056)
+p_edu	-7.828*
+	(4.168)
+grade	7.426***
+	(0.614)
+n_enrl	0.00261***
+	(0.000380)
+Constant	695.9***
+	(67.20)
+	
+Observations	19,222
+R-squared	0.033
+Standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	
