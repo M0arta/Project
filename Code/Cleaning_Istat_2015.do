@@ -85,6 +85,7 @@ drop if reg_uni == 0
 
 tab reg_uni
 
+
 /* keep only variables of interest */
 
 keep sex grade age_grad class_att citizenship reg_uni EU_mobility work p_edu reg_uni income
