@@ -20,3 +20,4 @@ esttab using Export_tab.rtf, cells("mean sd") label nodepvar append title("Grade
 
 scatter income p_edu
 graph save "Graph" "/home/marta/Coding_Project/Output/Export_graph.gph"
+
