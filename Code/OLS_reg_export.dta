@@ -14,4 +14,3 @@ reg income i.EU_mobility i.sex p_edu grade n_enrl
 
 outreg2 using Export_OLS.rtf, append ctitle("OLS-2")
 
-
