@@ -21,6 +21,7 @@ merge m:m city_uni using Clean_Enrolment.dta, generate(_merge_enrl)
 
 save Merged_02.dta
 
+
 /*The merging is very loose, the name of the Univerities do not corresponds exactly to the city name but for almost the half of the sample the merging works */
 
 
