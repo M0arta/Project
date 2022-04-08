@@ -26,3 +26,4 @@ replace reg_uni = 7 if (city_uni == "Genoa")
 replace reg_uni = 20 if (city_uni == "Sassari")
 replace reg_uni = 19 if (city_uni == "Salerno")| (city_uni == "Enna") | (city_uni == "Catania") | (city_uni == "Catanzaro") | (city_uni == "Palermo") | (city_uni == "Messina")
 replace reg_uni = 2 if (city_uni == "Aosta")
+
