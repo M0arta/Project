@@ -33,4 +33,5 @@ data = df.drop(["Name", "Public/private", "Students", "Est."], axis=1)
 data = data.rename(columns={"Original name": "uni_name","Headquarters": "reg_uni"})
 data.head(20)
 
+#save the data 
 data.to_csv('uni_italy.csv')
