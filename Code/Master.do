@@ -21,7 +21,6 @@ pwd
 cd Coding_Project/Code
 python Project.py
 
-
 /* back to STATA and clean the datframe created in python*/
 
 run Cleaning_region 
